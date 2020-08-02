@@ -1,0 +1,21 @@
+{
+  "include": [
+    "src/**/*"
+  ],
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es2015",
+    "module": "commonjs",
+    "strict": true,
+
+    // Babel形式のimportの挙動にする
+    // BabelとTypeScriptではimportの挙動が異なるため
+    // https://app.codegrid.net/entry/2019-ts-type-definition-5#toc-4
+    "esModuleInterop": true,
+
+    // 大文字小文字を区別して参照を解決するようにする
+    // Windowsではファイルパスは大文字小文字を区別しないみたい
+    // https://qiita.com/igayamaguchi/items/f88bea469bff56cfbda6#--forceconsistentcasinginfilenames
+    "forceConsistentCasingInFileNames": true
+  }
+}
