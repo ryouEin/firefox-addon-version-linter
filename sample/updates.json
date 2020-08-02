@@ -1,0 +1,19 @@
+{
+  "addons": {
+    "{1234-567-89}": {
+      "updates": [{
+        "version": "3.2.0",
+        "update_link": "http://localhost:3000/hogehoge/3.2.0/file"
+      },
+        {
+          "version": "3.2.1",
+          "update_link": "http://localhost:3000/hogehoge/3.2.1/file"
+        },
+        {
+          "version": "3.2.2",
+          "update_link": "http://localhost:3000/hogehoge/3.2.2/file"
+        }
+      ]
+    }
+  }
+}
